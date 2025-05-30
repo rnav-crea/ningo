@@ -1,6 +1,6 @@
 # NINGO: Search Engine
 
-NINGO is a JavaScript-based Wikipedia search engine that allows users to search for Wikipedia articles in a clean and modern UI. It includes real-time suggestions, spell correction, and a read-more preview using iframe embedding.
+NINGO is a JavaScript-based Wikipedia search engine that allows users to search for Wikipedia articles in a clean  UI. It includes real-time suggestions, spell correction, and a read-more preview using iframe embedding.
 
 ## Features
 
