@@ -22,6 +22,9 @@ html {
     border-radius: 35px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
 }
 
 .search-input {
@@ -56,7 +59,7 @@ html {
 
 .container {
     display: flex;
-    justify-content: center;
+    padding-bottom: 0.5rem;
     align-items: center;
     min-height: 10vh;
 }
@@ -78,7 +81,7 @@ html {
 
 @media (max-width: 768px) {
     .result-container {
-         padding: 8px;
+        padding: 8px;
         font-size: 16px;
     }
 }
@@ -126,6 +129,7 @@ html {
     height: 100%;
     border: none;
 }
+
 .suggestions-list {
     position: absolute;
     list-style: none;
@@ -151,6 +155,18 @@ html {
     background-color: #f0f0f0;
 }
 
-.search-row {
-    position: relative;
+.name {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.logo {
+    width: 15%;
+}
+
+h1 {
+    padding-left: 0.5rem;
+    font-family: 'Georgia', serif;
 }
